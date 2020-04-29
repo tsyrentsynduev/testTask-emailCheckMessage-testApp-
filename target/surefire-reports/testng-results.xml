@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="20160" started-at="2020-04-29T14:06:18 MSK" finished-at="2020-04-29T14:06:39 MSK">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="20160" started-at="2020-04-29T14:06:18 MSK" finished-at="2020-04-29T14:06:39 MSK">
+      <class name="TestSample.MailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestSample.MailTest@6fd02e5]" name="setUp" is-config="true" duration-ms="6249" started-at="2020-04-29T14:06:18 MSK" finished-at="2020-04-29T14:06:25 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginMail()[pri:0, instance:TestSample.MailTest@6fd02e5]" name="loginMail" duration-ms="13213" started-at="2020-04-29T14:06:25 MSK" finished-at="2020-04-29T14:06:38 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestSample.MailTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-04-29T14:06:38 MSK" finished-at="2020-04-29T14:06:39 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestSample.MailTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
