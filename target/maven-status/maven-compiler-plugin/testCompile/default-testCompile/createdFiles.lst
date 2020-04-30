@@ -1,6 +1,3 @@
-Pages\MainPage.class
-Pages\MessagePageView.class
 TestSample\MailTest.class
-Pages\EmailPageView.class
-Pages\MainPageEmailView.class
-Pages\PassportPageView.class
+utils\ReadFromUserData.class
+TestSample\BaseTest.class
