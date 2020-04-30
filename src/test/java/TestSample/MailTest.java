@@ -14,17 +14,16 @@ public class MailTest extends BaseTest {
     private String TEXT = ReadFromUserData.getValueFromConfig("TextMessage");
 
 
-
     @BeforeMethod(description = "Вход в личный кабинет")
     public void loginMail() {
         BaseTest.getDriver().get("https://mail.yandex.ru/");
         try {
-            BaseTest.getDriver().findElement(By.xpath("//*[@id=\"index-page-container\"]/div/div[2]/div/div/div[4]/a[]")).click();
+            BaseTest.getDriver().findElement(By.xpath("//*[@id=\"index-page-container\"]/div/div[2]/div/div/div[4]/a[2]")).click();
         } catch (Exception a) {
             a.printStackTrace();
             System.out.println("Веб-элемент не найден");
         }
-        BaseTest.getDriver().findElement(By.id("passp-field-login")).sendKeys(LOGIN);
+        BaseTest.getDriver().findElement(By.id("passp-field-login")).sendKeys("number");
         BaseTest.getDriver().findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div/div/div[3]/div[2]/div/div/div[1]/form/div[3]/button[1]")).click();
         BaseTest.getDriver().findElement(By.id("passp-field-passwd")).sendKeys(PASSWORD);
     }
