@@ -2,17 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
-    <parameter name="number" value="tsyrentsynduev"/>
     <classes>
-      <class name="TestSample.MailTest">
+      <class name="testSample.MailTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginMail"/>
+          <include name="SendMessage"/>
           <include name="setUp"/>
           <include name="profileSetup"/>
-          <include name="SendMessage"/>
+          <include name="loginMail"/>
         </methods>
-      </class> <!-- TestSample.MailTest -->
+      </class> <!-- testSample.MailTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

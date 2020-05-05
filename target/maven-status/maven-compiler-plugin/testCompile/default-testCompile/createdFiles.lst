@@ -1,3 +1,7 @@
-TestSample\MailTest.class
+page\YandexMailMainPage.class
+testSample\BaseTest.class
 utils\ReadFromUserData.class
-TestSample\BaseTest.class
+page\YandexMailAuthPage.class
+testSample\MailTest.class
+page\Page.class
+page\YandexMailInboxPage.class

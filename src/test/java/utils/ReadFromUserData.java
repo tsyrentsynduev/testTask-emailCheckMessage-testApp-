@@ -1,21 +1,13 @@
 package utils;
 
-import java.io.IOException;
 import java.util.Properties;
 
 public class ReadFromUserData {
-    private static final Properties prop;
+    private static final Properties prop = new Properties();
 
-    static {
-        prop = new Properties();
-        try {
-            prop.load(ReadFromUserData.class.getClassLoader().getResourceAsStream("UserData.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-    }
-    public static String getValueFromConfig(String value) {
+    public static String getValueFromConfig(String value, String propertiesName){
+        try {prop.load(ReadFromUserData.class.getClassLoader().getResourceAsStream(propertiesName));}
+        catch (Exception e) {System.out.println(e);}
         return prop.getProperty(value);
     }
 
