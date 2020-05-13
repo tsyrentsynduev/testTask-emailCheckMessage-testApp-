@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17223" started-at="2020-05-06T12:21:20 MSK" finished-at="2020-05-06T12:21:37 MSK">
+  <suite name="Suite" duration-ms="18169" started-at="2020-05-13T12:31:16 MSK" finished-at="2020-05-13T12:31:34 MSK">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17223" started-at="2020-05-06T12:21:20 MSK" finished-at="2020-05-06T12:21:37 MSK">
+    <test name="Test" duration-ms="18169" started-at="2020-05-13T12:31:16 MSK" finished-at="2020-05-13T12:31:34 MSK">
       <class name="testSample.MailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testSample.MailTest@5ef60048]" name="setUp" is-config="true" duration-ms="6014" started-at="2020-05-06T12:21:14 MSK" finished-at="2020-05-06T12:21:20 MSK">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testSample.MailTest@5ef60048]" name="setUp" is-config="true" duration-ms="6402" started-at="2020-05-13T12:31:10 MSK" finished-at="2020-05-13T12:31:16 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="profileSetup()[pri:0, instance:testSample.MailTest@5ef60048]" name="profileSetup" is-config="true" duration-ms="4122" started-at="2020-05-06T12:21:20 MSK" finished-at="2020-05-06T12:21:24 MSK">
+        <test-method status="PASS" signature="profileSetup()[pri:0, instance:testSample.MailTest@5ef60048]" name="profileSetup" is-config="true" duration-ms="4143" started-at="2020-05-13T12:31:16 MSK" finished-at="2020-05-13T12:31:20 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- profileSetup -->
-        <test-method status="PASS" signature="loginMail()[pri:0, instance:testSample.MailTest@5ef60048]" name="loginMail" is-config="true" duration-ms="2101" started-at="2020-05-06T12:21:24 MSK" description="Вход в личный кабинет" finished-at="2020-05-06T12:21:26 MSK">
+        <test-method status="PASS" signature="loginMail()[pri:0, instance:testSample.MailTest@5ef60048]" name="loginMail" is-config="true" duration-ms="2236" started-at="2020-05-13T12:31:20 MSK" description="Вход в личный кабинет" finished-at="2020-05-13T12:31:23 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginMail -->
-        <test-method status="PASS" signature="SendMessage()[pri:0, instance:testSample.MailTest@5ef60048]" name="SendMessage" duration-ms="10815" started-at="2020-05-06T12:21:26 MSK" description="Отправка сообщения самому себе и проверка соответствия текста" finished-at="2020-05-06T12:21:37 MSK">
+        <test-method status="PASS" signature="SendMessage()[pri:0, instance:testSample.MailTest@5ef60048]" name="SendMessage" duration-ms="11621" started-at="2020-05-13T12:31:23 MSK" description="Отправка сообщения самому себе и проверка соответствия текста" finished-at="2020-05-13T12:31:34 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SendMessage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSample.MailTest@5ef60048]" name="tearDown" is-config="true" duration-ms="692" started-at="2020-05-06T12:21:37 MSK" finished-at="2020-05-06T12:21:38 MSK">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testSample.MailTest@5ef60048]" name="tearDown" is-config="true" duration-ms="706" started-at="2020-05-13T12:31:34 MSK" finished-at="2020-05-13T12:31:35 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
